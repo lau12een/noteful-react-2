@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: ivory;
+}
+
+header {
+    text-align: center;
+    /* border: 2px dashed black; */
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+header a {
+    text-decoration: none;
+    color: #720056;
+    letter-spacing: 5px;
+    font-family: 'Nunito';
+    font-size: 40px;
+    border-bottom: 5px double #720056;
+}
+
+.app-body {
+    display: flex;
+}
+
+.sidebar {
+    width: 25%;
+    /* border: 2px solid green; */
+}
+
+.main {
+    width: 75%;
+    /* border: 2px solid red; */
+}
+
+button:hover {
+    cursor: pointer
+}

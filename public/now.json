@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "alias": "laureens-noteful-react",
+  "name": "noteful-react",
+  "routes": [
+      {
+        "src": "^/static/(.*)",
+        "dest": "/static/$1"
+      },
+      {
+        "src": ".*",
+        "dest": "/index.html"
+      }
+  ]
+}

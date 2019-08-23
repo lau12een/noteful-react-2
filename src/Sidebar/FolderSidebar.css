@@ -1,0 +1,17 @@
+.folder-list .current {
+    background: coral;
+    color: white;
+    border-radius: 15px;
+    border-bottom: 2px solid black;
+}
+
+.folder-list .current a {
+    color: white;
+}
+
+.folder-list a {
+    display: block;
+    height: 60px;
+    width: 100%;
+    padding: 17%;
+}

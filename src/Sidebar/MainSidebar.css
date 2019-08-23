@@ -1,0 +1,54 @@
+.folder-list {
+    list-style: none;
+    margin-left: -35px;
+    margin-right: 5px;
+    border-right: 1px dashed black;
+    padding-right: 10px;
+}
+
+.folder-list li {
+    text-align: center;
+    padding: 0;
+    border-radius: 15px;
+    background: #720056;
+    margin-bottom: 10px;
+}
+
+.folder-list a {
+    color: peachpuff;
+    text-decoration: none;
+}
+
+.folder-list li:hover {
+    background: #00C90D;
+}
+
+.folder-list li a:hover {
+    color: #720056;
+}
+
+
+#new-folder {
+    background: coral;
+}
+
+#new-folder a {
+    color: #720056;
+    padding: 11%
+}
+
+#new-folder:hover {
+    background: yellow;
+}
+
+#new-folder a:hover {
+    color: coral;
+}
+
+.main-sidebar a {
+    text-decoration: none;
+    display: block;
+    height: 60px;
+    width: 100%;
+    padding: 17%;
+}
