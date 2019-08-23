@@ -1,5 +1,5 @@
 {
-  "name": "noteful-react",
+  "name": "noteful-react-2",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,7 +10,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1",
+    "react-scripts": "^3.0.1",
     "typeface-roboto": "0.0.54"
   },
   "scripts": {
@@ -18,10 +18,10 @@
     "prebuild": "react-scripts test --colors CI=true",
     "build": "react-scripts build",
     "test": "react-scripts test",
-     "eject": "react-scripts eject",
+    "eject": "react-scripts eject",
     "predeploy": "npm run build",
-   "deploy": "now ./build",
-   "postdeploy": "now alias -A ./build/now.json"
+    "deploy": "now ./build",
+    "postdeploy": "now alias -A ./build/now.json"
   },
   "eslintConfig": {
     "extends": "react-app"
