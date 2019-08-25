@@ -13,15 +13,11 @@
     "react-scripts": "^3.0.1",
     "typeface-roboto": "0.0.54"
   },
-   "scripts": {
+  "scripts": {
     "start": "react-scripts start",
-    "prebuild": "react-scripts test --colors CI=true",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "now ./build",
-    "postdeploy": "now alias -A ./build/now.json"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -43,5 +39,6 @@
     "enzyme-adapter-react-16": "^1.14.0",
     "enzyme-to-json": "^3.3.5",
     "react-test-renderer": "^16.8.6"
-  }
+  },
+    "homepage" : "https://morning-shelf-22585.herokuapp.com"
 }
