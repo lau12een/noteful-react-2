@@ -15,7 +15,7 @@
 }
 
 .folder-list a {
-    color: peachpuff;
+    color: #ff0090;
     text-decoration: none;
 }
 
@@ -24,25 +24,25 @@
 }
 
 .folder-list li a:hover {
-    color: #720056;
+    color: #7851a9;
 }
 
 
 #new-folder {
-    background: coral;
+    background: #333CFF;
 }
 
 #new-folder a {
-    color: #720056;
+    color: #8A7EDC;
     padding: 11%
 }
 
 #new-folder:hover {
-    background: yellow;
+    background: #7EDADC;
 }
 
 #new-folder a:hover {
-    color: coral;
+    color: #7EDC7f;
 }
 
 .main-sidebar a {
