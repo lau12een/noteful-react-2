@@ -7,13 +7,13 @@ import ApiContext from './ApiContext';
 import AddFolder from './AddFolder/AddFolder';
 import AddNote from './AddNote/AddNote';
 import NotefulError from './NotefulError';
-import config from './config';
+import config from './Config';
 import './App.css'
 
 // TODO: create PATCH ability for folders and notes
 
 class App extends Component {
-  
+
   state = {
     folders: [],
     notes: [],

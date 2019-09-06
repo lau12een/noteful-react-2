@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ApiContext from '../ApiContext';
 import PropTypes from 'prop-types';
-import config from '../config';
+import config from '../Config';
 import './AddFolder.css';
 
 
